@@ -1,0 +1,47 @@
+:root{
+    --gold:gold;
+}
+.gold{
+    color: var(--gold);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.star-cont{
+    display: flex;
+    
+    justify-content: center;
+}
+.star {
+    font-size: 7rem;
+    cursor: pointer;
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+
+.rating-count {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
